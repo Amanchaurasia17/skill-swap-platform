@@ -26,7 +26,7 @@ const Dashboard = () => {
       // Fetch user's swap requests
       const requestsResponse = await api.getUserSwapRequests();
       console.log('Dashboard: API response:', requestsResponse.data);
-      const requests = requestsResponse.data.swaps || []; // Fix: use .swaps from API response
+      const requests = requestsResponse.data.swaps || []; 
       
       // Calculate stats
       const activeRequests = requests.filter(req => req.status === 'accepted').length; // Active = accepted swaps
