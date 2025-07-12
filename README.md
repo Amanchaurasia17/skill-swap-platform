@@ -164,7 +164,7 @@ The backend includes comprehensive API documentation and Postman testing resourc
 - Protected routing
 - API integration
 
-🚀 **Ready to Use:**
+ **Ready to Use:**
 - Both backend and frontend are fully functional
 - Comprehensive testing with Postman
 - Sample data for immediate testing
